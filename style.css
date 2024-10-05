@@ -320,6 +320,7 @@
   border-bottom: 1px solid rgba(255, 255, 255, 1);
   max-width: 440px;
   min-height: 131px;
+  resize: none;
 }
 
 .contact__inner textarea::placeholder {
@@ -337,4 +338,22 @@
   font-size: 18px;
   width: 187px;
   height: 50px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 60px 0;
+}
+
+.footer p {
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.footer__icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
 }
